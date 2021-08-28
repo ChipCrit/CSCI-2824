@@ -3,7 +3,7 @@ class BitOperator(object):
     def bitOperator(self,bit1,bit2):
         x = int(bit1,2) | int(bit2,2) 
         y = int(bit1,2) & int (bit2,2)
-        return x,y
+        return bin(x),bin(y)
 
         
 
