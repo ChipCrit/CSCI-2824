@@ -6,5 +6,3 @@ class BitOperator(object):
         return x|y, x&y
 
 #Start writing your code from here
-    
-BitOperator(10001,11011)
