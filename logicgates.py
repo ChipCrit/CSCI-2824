@@ -10,5 +10,7 @@ class LogicGates(object):
         elif c == False and a == False:
             if a == False and b == True:
                 return True
+            else:
+                return False
         else:
             return False
