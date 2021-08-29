@@ -1,8 +1,8 @@
 #DO NOT CHANGE THE NAMES OF THE FILE, CLASS or METHOD
 class BitOperator(object):
     def bitOperator(self,bit1,bit2):
-        x = int(bit1,2) | (bit2,2)
-        y = int(bit1,2) & (bit2,2)
+        x = int(bit1)
+        y = int(bit2)
         binarysol1 = bin(x)
         binarysol2= bin(y)
         sol1 = binarysol1[2,7]
