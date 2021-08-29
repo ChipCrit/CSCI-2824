@@ -46,4 +46,6 @@ class BitOperator(object):
             sol2[4]=1
         else:
             sol2[4]=0
+
+        return sol1, sol2
 #Start writing your code from here
