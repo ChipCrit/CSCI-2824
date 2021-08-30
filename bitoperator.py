@@ -1,8 +1,8 @@
 #DO NOT CHANGE THE NAMES OF THE FILE, CLASS or METHOD
 class BitOperator(object):
     def bitOperator(self,bit1,bit2):
-        x=str(bit1)
-        y=str(bit2)
+        x= bit1
+        y= bit2
         for i in range (5):
             if bit1[i]==bit2[i]:
                 y[i]=1
