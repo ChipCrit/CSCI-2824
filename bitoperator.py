@@ -4,13 +4,13 @@ class BitOperator(object):
         x= bit1
         y= bit2
         for i in range (5):
-            if bit1[i]==bit2[i]:
+            if bit1[i]==bit2[i]and bit2[i]=='1':
                 y[i]=1
             else:
                 y[i]=0
-            if bit1[i] == 1:
+            if bit1[i] == '1':
                 x[i]=1
-            elif bit2[i] ==1:
+            elif bit2[i] =='1':
                 x[i]=1
             else:
                 x[i]=0
