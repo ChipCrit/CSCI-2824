@@ -17,5 +17,7 @@ class BitOperator(object):
         xf=int(x)
         yf=int(y)
 
+        return xf,yf
+
         
 #Start writing your code from here
