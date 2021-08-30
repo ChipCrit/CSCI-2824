@@ -14,10 +14,4 @@ class BitOperator(object):
                 x+="1"
             else:
                 x+="0"
-        xf=int(x)
-        yf=int(y)
-
-        return xf,yf
-
-        
-#Start writing your code from here
+        return x,y
