@@ -5,9 +5,6 @@ class CartesianProduct:
         for i in A:
             for j in B:
                 for k in C:
-                    temp.clear()
-                    temp.append(i)
-                    temp.append(j)
-                    temp.append(k)
+                    temp = [i,j,k]
                     product.append(temp)
         return product
