@@ -4,5 +4,5 @@ class CartesianProduct:
         for i in A:
             for j in B:
                 for k in C:
-                    product += list(i,j,k)
+                    product.append(i,j,k)
         return product
