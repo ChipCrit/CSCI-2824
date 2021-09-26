@@ -4,8 +4,8 @@ class Sequence():
         difference = input_sequence[1]-input_sequence[0]
         if((input_sequence[2]-input_sequence[1]==difference)):
             num=input_sequence[-1]+difference
-            return round(num,2)
+            return float(round(num,2))
         else:
             r=input_sequence[1]/input_sequence[0]
             difference=input_sequence[-1]*r
-            return round(difference,2)
+            return float(round(difference,2))
