@@ -10,6 +10,6 @@ class Sequence():
         else:
             r=input_sequence[1]/input_sequence[0]
             round(r,2)
-            difference=input_sequence[-1]*r
+            difference=round(input_sequence[-1]*r,2)
             round(difference,2)
             return difference
