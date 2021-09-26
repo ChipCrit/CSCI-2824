@@ -9,5 +9,4 @@ class Sequence():
             r=input_sequence[1]/input_sequence[0]
             r = round(r,2)
             difference=input_sequence[-1]*r
-            difference=round(difference,2)
-            return difference
+            return round(difference,2)
