@@ -7,6 +7,5 @@ class Sequence():
             return num
         else:
             r=input_sequence[1]/input_sequence[0]
-            r = round(r,2)
             difference=input_sequence[-1]*r
             return round(difference,2)
