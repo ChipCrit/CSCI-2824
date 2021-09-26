@@ -1,0 +1,13 @@
+class Sequence():
+    def next_in_sequence(self, input_sequence):
+        difference = 0
+        difference = input_sequence[1]-input_sequence[0]
+        if((input_sequence[2]-input_sequence[1]==difference)):
+            num=input_sequence[-1]+difference
+            return num
+        else:
+            r=input_sequence[1]/input_sequence[0]
+            r = round(r,2)
+            difference=input_sequence[-1]*r
+            difference=round(difference,2)
+            return difference
