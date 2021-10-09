@@ -1,15 +1,11 @@
 class Sequence():
     def next_in_sequence(self, input_sequence):
-        difference = 0
         difference = input_sequence[1]-input_sequence[0]
-        round(difference,2)
-        if((input_sequence[2]-input_sequence[1]==difference)):
-            num=input_sequence[-1]+difference
-            round(num,2)
+        difference = round(difference,2)
+        if((round(input_sequence[2]-input_sequence[1],2) == difference)):
+            num=(input_sequence[-1]+difference)
             return num
         else:
-            r=input_sequence[1]/input_sequence[0]
-            round(r,2)
-            difference=round(input_sequence[-1]*r,2)
-            round(difference,2)
+            r=round((input_sequence[1]/input_sequence[0]),2)
+            difference=input_sequence[-1]*r
             return difference
